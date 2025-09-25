@@ -113,7 +113,7 @@ python langgraph_backend.py
 Launch the Streamlit interface:
 
 ```bash
-streamlit run frontend_multithread.py
+streamlit run app.py
 ```
 
 ---
