@@ -48,11 +48,20 @@ A **general-purpose chatbot** built using [LangGraph](https://github.com/langcha
 ## 📂 Project Structure
 
 ```
-├── langgraph_backend.py     # Backend: LangGraph pipeline, thread management, persistence
-├── frontend_multithread.py  # Frontend: Streamlit app with multithread chat support
-├── requirements.txt         # Python dependencies
-├── assets/                  # (Optional) screenshots and GIFs for README
-└── README.md                # Project documentation
+Chatster/
+├── app.py                     # Streamlit frontend entry point
+├── backend/                   # Backend: LangGraph pipeline, thread management, persistence
+│   ├── __init__.py
+│   └── langgraph_backend.py
+├── tools/                     # Utility modules and tools
+│   ├── __init__.py
+│   ├── basic_tools.py
+│   └── sql_db.py
+├── data/                      # (Optional) SQLite DB and related files
+│   └── chatbot.db
+├── requirements.txt           # Python dependencies
+├── assets/                    # screenshots, GIFs for README
+└── README.md                  # Project documentation
 ```
 
 ---
