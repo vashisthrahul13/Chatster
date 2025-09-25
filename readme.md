@@ -17,6 +17,11 @@ A **general-purpose chatbot** built using [LangGraph](https://github.com/langcha
   * Real-time streaming of chatbot responses.
   * Clean, intuitive UI for managing multiple conversations.
 
+* **Support for tool calling**
+  * Real time search results using google search integration.
+  * MySQL database interaction support and with safe query checking.
+  * Multiple other tools implemented
+
 * **LLM Flexibility**
 
   * Plug-and-play integration with different **LLMs**, including custom fine-tuned models.
